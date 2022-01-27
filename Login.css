@@ -1,0 +1,115 @@
+#formContainer{
+    width: 340px;  
+    transform: translateY(70px);
+    overflow: hidden;  
+    margin: auto;  
+    /* margin: 20 0 0 450px;   */
+    padding: 80px;  
+    background: white;  
+    border-radius: 15px ;
+    text-align: center;
+   
+}
+label,input{  
+    color: #080e0c;  
+    font-size: 17px;
+    text-align: left;  
+    
+  
+}
+/* #userName,#datepicker,#email,#userPassword,#logInEmail,#logInPassword{  
+    width: 300px;  
+    height: 30px;  
+    border: solid;  
+    border-radius: 3px;  
+    padding-left: 8px;  
+} */
+.inputfield{  
+    width: 300px;  
+    height: 30px;  
+    border: solid;  
+    border-radius: 3px;  
+    padding-left: 8px;  
+}
+
+
+#SignupBtn, #logInBtn, #link{
+    background-color:skyblue;
+    text-align: center;
+    padding: 10px 30px 10px 30px;
+    border-radius: 12px;
+}
+#logOutBtn{
+    background-color:skyblue;
+    text-align: center;
+    padding: 10px 30px 10px 30px;
+    border-radius: 12px;
+    
+}
+#SignupBtn:hover {
+    background-color: #008CBA;
+    color: white;
+  }
+#logInBtn:hover {
+    background-color: #008CBA;
+    color: white;
+}
+#logOutBtn:hover {
+    background-color: #008CBA;
+    color: white;
+}
+#link:hover {
+    background-color: #008CBA;
+    color: white;
+}
+/* #existinguser,#usersignup{
+    text-align: center;
+} */
+/* #logInform{
+    width: 340px;  
+    transform: translateY(50px);
+    overflow: hidden;  
+    margin: auto;   */
+    /* margin: 20 0 0 450px;   */
+    /* padding: 80px;  
+    background: white;  
+    border-radius: 15px ;
+   
+} */
+/* #message,#output,#author,#daysleft,#statement{
+    text-align: center;
+} */
+#center{
+    margin: 0;
+    position: absolute;
+    padding: 0 120px
+    /* top: 50%;
+    left: 50%; */
+    /* -ms-transform: translate(-50%, -50%); */
+    /* transform: translate(-50%, -50%); */
+}
+.msg #center{
+    
+    margin: 0;
+    position: absolute;
+    padding: 0 40px
+
+}
+/* #heading{
+    text-align: center;
+} */
+.msg{
+    width: 340px;  
+    transform: translateY(50px);
+    overflow: hidden;  
+    margin: auto;  
+    /* margin: 20 0 0 450px;   */
+    padding: 80px;  
+    background: white;  
+    border-radius: 15px ;
+    text-align: center;
+
+}
+/* .formText .formLink #linkSignup{
+    transform: translate(300px, 300px)
+} */
